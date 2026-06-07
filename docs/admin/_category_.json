@@ -1,0 +1,8 @@
+{
+  "label": "Admin Docs",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for the admin interface of the application, including setup, configuration, and management tasks."
+  }
+}

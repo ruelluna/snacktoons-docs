@@ -1,0 +1,9 @@
+{
+  "label": "Reader Docs",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Complete guide for readers to discover, read, and enjoy comics on the platform. From account setup to advanced features."
+  },
+  "collapsed": false
+}

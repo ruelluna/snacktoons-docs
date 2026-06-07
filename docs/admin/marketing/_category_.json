@@ -1,0 +1,8 @@
+{
+  "label": "Marketing",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for marketing features, including promotions, coupons, and ad tracking."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Artist Docs",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Complete guide for artists to create, manage, and monetize their comics on the platform. From account setup to payout management."
+  },
+  "collapsed": false
+}
