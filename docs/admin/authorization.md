@@ -17,7 +17,7 @@ The Snacktoons admin panel uses a secure authorization system that requires expl
 - **No Self-Registration**: Administrators cannot register themselves through a public registration form
 - **System User Creation**: New administrators must be added as system users by existing administrators
 - **Role-Based Access**: All admin users are assigned the 'admin' role automatically
-- **Secure Authentication**: Standard email and password authentication is used for admin access
+- **Secure Authentication**: Email and password login, then **required authenticator-app two-factor authentication**
 
 ## How to Gain Admin Access
 
@@ -33,9 +33,26 @@ For detailed instructions on creating system users, please refer to the [Managin
 
 1. Navigate to the admin login page at [https://snacktoons.com/admin/login](https://snacktoons.com/admin/login)
 2. Enter your email address and password
-3. Click "Login" to access the admin panel
+3. Click **Login**
+4. Enter the six-digit code from your authenticator app when prompted (after first-time enrollment)
+
+If this is your first login since two-factor authentication was enabled, complete **Profile → Two-factor authentication** setup before using the panel.
 
 If you've forgotten your password, use the "Forgot Password" link on the login page to request a password reset.
+
+## Two-factor authentication (admin)
+
+Every administrator must enroll in **authenticator app two-factor authentication** before using the admin panel after sign-in.
+
+1. Log in at the admin login page with email and password
+2. When prompted, open **Profile** (account menu) and complete **Two-factor authentication** setup
+3. Scan the QR code with an authenticator app (Google Authenticator, Authy, or similar)
+4. Save the **recovery codes** in a secure location
+5. On future logins, enter the six-digit code from your app after your password
+
+If you lose your device, use a recovery code once, then set up 2FA again from your profile. Contact another system administrator if you cannot sign in.
+
+For a full staging walkthrough, see [Milestone 1 Staging UAT](./delivery/milestone-1-staging-uat.md).
 
 ## Security Best Practices
 

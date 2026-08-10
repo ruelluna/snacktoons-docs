@@ -62,12 +62,6 @@ If you're new to the platform, start here:
 3. **Engage Readers** - Respond to comments and build community
 4. **Scale Success** - Expand your portfolio and audience
 
-#### Earning from Paid Chapters
-1. **Set coin price** on paid chapters and get them published
-2. **Coins Earned** (dashboard) updates when readers click **Purchase with Coins** — not when they only read the chapter
-3. **Subscriber reads** do not add to Coins Earned; they are handled in subscription payouts
-4. **USD payouts** appear monthly in **Payouts** after the platform batch runs — see [Payout Management](./payout-management.md)
-
 ## Getting Help
 
 ### Support Resources

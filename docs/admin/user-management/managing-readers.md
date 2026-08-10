@@ -20,6 +20,7 @@ The Readers page displays a table with all reader accounts in the system. The ta
 
 - **Name**: The reader's full name
 - **Email**: The reader's email address
+- **Account status**: Active, Paused, Suspended, or Banned
 - **Joined**: When the reader account was created
 
 You can:
@@ -39,7 +40,7 @@ To view detailed information about a reader:
 
 The reader detail page shows comprehensive information about the reader, including:
 
-- Profile information (name, email)
+- Profile information (name, email, account status, status reason when set)
 - Reading history
 - Reward points
 - Subscriptions
@@ -119,6 +120,32 @@ The referral system allows readers to earn rewards by referring new users:
 1. Navigate to the reader's detail page
 2. Scroll to the **Referral Payouts** section to see rewards earned from referrals
 3. Check the **Referred Users** section to see which users were referred by this reader
+
+## Account status controls
+
+Readers can be set to **Active**, **Paused**, **Suspended**, or **Banned** from the Readers list or reader detail page.
+
+1. Open **Users → Readers** and locate the account
+2. Use **Pause**, **Suspend**, or **Ban** from the row actions (or the reader detail header)
+3. Enter a **reason** when prompted — the reason is stored on the account and appears in the reader profile
+4. To restore access, use **Reinstate** and provide a reason
+
+Non-active accounts cannot log in to the reader site. Paused, suspended, and banned states are shown as badges on the Readers table and reader detail view.
+
+Status changes are recorded in the activity log (open **Audit log** on the reader detail page to review).
+
+## Manual coin adjustments
+
+Administrators can credit or debit a reader's spendable coin wallet:
+
+1. Open the reader from **Users → Readers**
+2. Choose **Adjust coins** from the row or detail actions
+3. Select **Credit** or **Debit**, enter the **amount** and a required **reason**
+4. Confirm the adjustment
+
+Each adjustment writes to the wallet ledger with admin metadata and is logged for audit. Debits cannot exceed the reader's current balance.
+
+For staging verification steps, see [Milestone 1 Staging UAT](../delivery/milestone-1-staging-uat.md).
 
 ## Managing Bank Details
 

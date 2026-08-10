@@ -93,54 +93,7 @@ Artist payout settings determine how much revenue the artist receives from subsc
    - **Coin Payout Percentage**: The percentage of coin purchase revenue allocated to the artist
 4. Click **Save** to apply the changes
 
-Default payout percentages are applied if no custom values are set. Global defaults are configured in **General Settings** (coin and subscription payout percentage fields). New artists who open Payout Settings in the artist panel inherit those platform defaults.
-
-## Processing Monthly Artist Payouts
-
-Artist payouts are calculated in a **monthly batch**, separate from the real-time **Coins Earned** dashboard stat artists see when readers unlock chapters with coins.
-
-### Prerequisites
-
-Before running or expecting payouts:
-
-1. **Payout Active** is enabled in **General Settings** → Payout Settings
-2. **Cut-off day** and **payout day** are configured (e.g. cut-off on the 30th, payout on the 5th)
-3. Artists have complete **payment information** (PayPal and/or bank details)
-4. Artists have the **artist** role and comics correctly assigned with `artist_id`
-
-### How revenue is collected
-
-| Revenue type | Source data | When it counts |
-|--------------|-------------|----------------|
-| **Coin** | `chapter_unlocks` (reader clicked **Purchase with Coins**) | `unlocked_at` within the payout period |
-| **Subscription** | Paid chapter reads by subscribers (no matching coin unlock) | Read date within the period, with active subscription |
-
-Subscriber reads do **not** create coin unlocks and do **not** increase an artist's **Coins Earned** dashboard total.
-
-### Monthly batch process
-
-1. The scheduled command `php artisan artist:payouts` runs daily but **only processes on the configured payout day** when payouts are active
-2. `ArtistPayoutService` calculates USD amounts for each artist (coin and subscription types) and creates **pending** rows in the `payouts` table
-3. Administrators review payouts in the admin panel under **Payouts**
-4. Mark each payout as **paid** when funds have been sent; artists receive notification
-
-### Manual run (staging or support)
-
-On the payout day, or when validating the pipeline:
-
-```bash
-php artisan artist:payouts
-```
-
-If payouts are disabled or today is not the payout day, the command exits without creating records.
-
-### Verifying coin unlocks (support)
-
-If an artist reports missing coin earnings:
-
-1. Confirm the test user is **not** a subscriber
-2. Confirm the reader used **Purchase with Coins** on the comic page (not only opened the reader)
-3. Check `chapter_unlocks` for the chapter and that the comic's `artist_id` matches the artist
+Default payout percentages are applied if no custom values are set.
 
 ## Managing Artist Payment Information
 
@@ -173,8 +126,6 @@ You can click on any comic to view its details or manage it.
 
 - Verify artist information before creating accounts
 - Set fair and consistent payout percentages across artists
-- Keep **Payout Active** and payout schedule settings accurate in General Settings
-- Ensure payment information is complete and accurate before marking payouts as paid
+- Ensure payment information is complete and accurate before processing payouts
 - Regularly review artist accounts and their associated content
 - Communicate any changes to payout percentages to artists in advance
-- When artists test monetization, direct them to use a **non-subscriber** account and **Purchase with Coins** (see artist [Payout Management](../../artist/payout-management.md))

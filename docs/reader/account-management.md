@@ -36,10 +36,12 @@ Your account dashboard provides quick access to:
 - **Bio**: Brief description about yourself (optional)
 
 #### Updating Information
-1. **Edit Profile**: Click "Edit" or "Update Profile"
-2. **Make Changes**: Modify the information you want to update
-3. **Save Changes**: Click "Save" to apply your updates
-4. **Verification**: Some changes may require email verification
+
+1. Open **Profile** from the top navigation (profile picture or name menu)
+2. In **Profile Information**, update **Name** and/or **Email**
+3. To add or change your photo, click **Select A New Photo**, choose an image (JPG or PNG, max 1 MB), then click **Save**
+4. To remove a photo, click **Remove Photo**, then **Save**
+5. Some email changes may require verification before the new address is active
 
 ### Privacy Settings
 

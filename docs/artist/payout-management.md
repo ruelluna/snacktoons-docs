@@ -8,63 +8,40 @@ sidebar_position: 7
 
 Payout management is essential for monetizing your comic content effectively. This guide covers setting up your payment information, understanding revenue streams, tracking earnings, and receiving payments.
 
-## How Earnings and Payouts Work
-
-Snacktoons uses **two separate surfaces** for monetization. Understanding the difference prevents confusion when testing or reviewing your dashboard.
-
-| Surface | Location | What it shows | When it updates |
-|-------|----------|---------------|-----------------|
-| **Coins Earned** | Artist Dashboard | Total **coins** spent on unlocks of your paid chapters | Immediately after a reader unlocks with coins |
-| **Payouts** | Artist panel → Payouts | **USD** payout records for a billing period | After the monthly payout batch runs |
-
-**Coins Earned is not the same as money in your bank account.** Coins are converted to USD using the platform coin value and your payout percentage when monthly payouts are calculated.
-
-### Coin unlock flow (paid chapters)
-
-Coins are charged only when a reader explicitly unlocks a chapter:
-
-1. Reader visits your comic page on the public site
-2. Reader clicks **Purchase with Coins** on a paid chapter
-3. Coins are deducted from the reader's wallet
-4. A chapter unlock record is created
-5. Your dashboard **Coins Earned** increases by that chapter's coin price
-
-**Opening or reading a chapter does not charge coins.** If the reader never clicks **Purchase with Coins**, no coin revenue is recorded for that chapter.
-
-### Subscriber reads (separate from coin unlocks)
-
-Readers with an **active subscription** can access paid chapters without spending coins. For those reads:
-
-- **No** coin unlock is created
-- **Coins Earned does not increase**
-- The read is tracked for **subscription revenue** sharing, which is calculated during the monthly payout batch
-
-If you test payouts with a subscribed account, you will not see coin earnings on your dashboard. That is expected behavior.
-
 ## Understanding Revenue Streams
 
 ### Types of Revenue
 
-#### Coin Purchases
-- **Source**: Readers spending coins to unlock paid chapters (via **Purchase with Coins**)
-- **Calculation**: Coins spent × coin value × your coin payout percentage
-- **Dashboard tracking**: **Coins Earned** updates immediately (raw coin total)
-- **USD payout**: Calculated monthly from unlocks in the payout period
-- **Example**: 100 coins spent × $0.01 per coin × 5% platform rate = $0.05 USD (if your rate is 5%)
+#### Coin Earnings (chapter unlocks)
+- **Source**: Readers spending coins to unlock your paid chapters
+- **How it works**: You receive the **full coin amount** in your earnings
+  wallet the moment a reader unlocks your chapter — no percentage is taken
+  from the coins
+- **Cashing out**: Request a cash-out from the Cash-outs page whenever your
+  balance is above the minimum; coins convert to money at the platform's
+  published cash-out rate
+- **Example**: a reader unlocks your 3-coin chapter → +3 coins in your
+  earnings wallet, instantly
 
 #### Subscription Revenue
 - **Source**: Platform subscription fees shared with artists
-- **Calculation**: Your share of paid subscriber reads relative to all paid subscriber reads on the platform, applied to active subscription revenue in the period
-- **Dashboard tracking**: Not shown as coins on the dashboard
-- **USD payout**: Calculated and recorded monthly in the Payouts section
-- **Basis**: Paid chapter reads by subscribers (reads that did not use a coin unlock)
+- **Calculation**: Total subscription revenue × your percentage × your share
+  of paid reads by subscribers
+- **Frequency**: Monthly calculations and payouts
+- **Basis**: Your comics' proportion of total platform subscription reads
+- **Tracking**: Subscription reads are recorded when a subscriber scrolls
+  through a chapter; earnings appear as monthly USD payouts, not in the coin
+  earnings wallet
 
 ### Revenue Calculation
 
-#### Coin Revenue Formula
+#### Coin Cash-out Formula
 ```
-Your Earnings = (Coins Spent on Your Chapters × Coin Value) × Your Payout Percentage
+Cash-out Amount = Coins Cashed Out × Coin Cash-out Rate
 ```
+The current rate and minimum are shown on the cash-out request form. The rate
+is locked in when you submit a request — later rate changes never affect an
+in-flight cash-out. Rejected requests refund the held coins in full.
 
 #### Subscription Revenue Formula
 ```
@@ -72,13 +49,8 @@ Your Earnings = (Total Subscription Revenue × Platform Share) × Your Readershi
 ```
 
 #### Example Calculation
-
-Using platform defaults (coin and subscription payout percentages are configured by administrators; commonly **5%** unless your account has custom rates):
-
-- **Coin USD payout**: 1,000 coins × $0.01 × 5% = **$0.50**
-- **Subscription share**: Depends on your proportion of subscriber paid reads in the period × active subscription revenue × your subscription payout percentage
-
-Your **Coins Earned** dashboard stat would show **1,000** (coins), while the **Payouts** page shows the USD amount after the monthly batch runs.
+- **Coin cash-out**: 1,000 coins × $0.10 rate = $100.00
+- **Subscription share**: $1,000 total × 80% × 5% = $40.00
 
 ## Setting Up Payout Information
 
@@ -112,35 +84,31 @@ Your **Coins Earned** dashboard stat would show **1,000** (coins), while the **P
 ### Payout Percentages
 
 #### Understanding Percentages
-- **Coin Payout Percentage**: Your share of coin revenue after coin value conversion
-- **Subscription Payout Percentage**: Your share of subscription revenue allocated to artists
-- **Platform defaults**: Set by administrators in global settings (not 80% by default)
-- **Per-artist overrides**: Administrators can set custom percentages on your artist account
-- **Artist Payout Settings**: When you first open Payout Settings, defaults are taken from the platform configuration
+- **Coin Payout Percentage**: Your share of coin revenue (default: 80%)
+- **Subscription Payout Percentage**: Your share of subscription revenue (default: 80%)
+- **Platform Share**: Remaining percentage goes to platform operations
 
 #### Setting Your Percentages
-1. **Review your rates**: Check Payout Settings and confirm with support if unsure
-2. **Do not assume 80%**: Published examples may use illustrative rates; your live percentages are what matter
-3. **Negotiate if needed**: Contact support for rate discussions
-4. **Monitor changes**: Track how percentage changes affect monthly payout amounts
+1. **Review Defaults**: Check current platform percentages
+2. **Consider Performance**: Higher-performing artists may qualify for better rates
+3. **Negotiate if Needed**: Contact support for rate discussions
+4. **Monitor Changes**: Track how percentage changes affect earnings
 
 ## Tracking Your Earnings
 
 ### Dashboard Overview
 
 #### Key Metrics
-- **Coins Earned** (dashboard): All-time total **coins** from paid chapter unlocks on your comics
-- **Payouts** (Payouts menu): USD records per period with status (`pending`, `paid`, etc.)
-- **Pending payouts**: USD amounts created by the monthly batch, awaiting admin payment
-- **Payment history**: Past payout records in the Payouts section
+- **Total Coins Earned**: Cumulative coins from all time
+- **Monthly Earnings**: Current month's revenue
+- **Pending Payouts**: Amount waiting for next payout
+- **Payment History**: Past payout records
 
-#### What Updates in Real Time
-- **Coins Earned** on the dashboard after a reader uses **Purchase with Coins**
-- **Reads and unique readers** as readers consume your content
-
-#### What Updates Monthly
-- **USD payout rows** in the Payouts section (coin and subscription types)
-- Subscription revenue attribution for subscriber reads (not shown as coins on the dashboard)
+#### Real-Time Tracking
+- **Live Updates**: Earnings update in real-time
+- **Chapter Performance**: See which chapters earn most
+- **Reader Analytics**: Understand your audience's spending patterns
+- **Trend Analysis**: Track earnings over time
 
 ### Detailed Analytics
 
@@ -167,12 +135,10 @@ Your **Coins Earned** dashboard stat would show **1,000** (coins), while the **P
 - **Minimum Threshold**: $10 minimum for payout
 
 #### Payout Timeline
-1. **Throughout the month**: Readers unlock chapters (coins) or read as subscribers
-2. **Cut-off date**: Earnings through the configured period end are included (see admin General Settings)
-3. **Payout day**: The platform runs the monthly payout batch (`artist:payouts`) when payouts are active
-4. **Pending records**: USD payout rows appear in your Payouts section
-5. **Admin payment**: Administrators review and mark payouts as paid
-6. **Confirmation**: You receive notification when a payout is marked paid
+1. **Month End**: Final earnings calculated
+2. **Processing**: Platform processes payments
+3. **Payment Sent**: Funds transferred to your account
+4. **Confirmation**: You receive payment confirmation
 
 ### Payment Methods
 
@@ -292,37 +258,9 @@ Your **Coins Earned** dashboard stat would show **1,000** (coins), while the **P
 - **Market Expansion**: Explore new audiences
 - **Collaboration**: Partner with other creators
 
-## Verifying Coin Earnings (Test Checklist)
-
-Use this checklist when validating that coin monetization works end-to-end:
-
-1. Publish your comic and paid chapter (admin must set chapter status to **Published**)
-2. Use a **non-subscriber** test reader account with enough coins in their wallet
-3. On the **comic page**, click **Purchase with Coins** on the paid chapter (do not only open the reader URL)
-4. Confirm the reader sees a success message and can open the chapter
-5. Log into the **artist panel** → Dashboard → **Coins Earned** should increase by the chapter coin price
-6. Check **Payouts** for USD records only after the monthly payout batch has run
-
-**Common mistakes**
-- Testing with a **subscribed** user (no coin unlock, no Coins Earned increase)
-- Opening the chapter without clicking **Purchase with Coins** first
-- Expecting USD in Payouts immediately after a single unlock (monthly batch required)
-
 ## Troubleshooting
 
 ### Common Issues
-
-#### Coins Earned Stays at Zero
-- **Subscriber test**: Subscribers do not create coin unlocks; use a regular user without a subscription
-- **No purchase action**: Reading alone does not charge coins; the reader must click **Purchase with Coins**
-- **Wrong artist**: Confirm the comic's `artist_id` matches your artist account
-- **Free chapter**: Chapters marked free or with zero coin price do not generate coin revenue
-
-#### Chapter Reader Shows No Images
-- **Symptom**: Purple reader page with no page images (or the message "No pages uploaded for this chapter")
-- **Cause**: Chapter has no images saved, files are missing from storage, or pages need to be re-uploaded after a storage path fix
-- **Fix**: Edit the chapter in the artist panel, re-upload page images, save, and ensure the comic/chapter is **Published**
-- **Server**: Ensure `php artisan storage:link` has been run on the environment
 
 #### Payment Problems
 - **Delayed Payments**: Check processing times and contact support

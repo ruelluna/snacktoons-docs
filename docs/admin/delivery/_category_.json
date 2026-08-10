@@ -1,0 +1,8 @@
+{
+  "label": "Delivery & UAT",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Staging verification and acceptance guides for milestone deliveries. Share these links with clients and QA."
+  }
+}

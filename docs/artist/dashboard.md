@@ -39,11 +39,10 @@ The dashboard displays six primary metrics at the top:
 - **Description**: "Unique users who have read your comics"
 
 #### 5. Coins Earned
-- **What it shows**: Total **coins** spent by readers who unlocked your paid chapters
+- **What it shows**: Revenue generated from paid chapter unlocks
 - **Icon**: Currency dollar icon
 - **Color**: Warning (yellow)
 - **Description**: "Coins earned from paid chapter unlocks"
-- **Important**: This is a **coin count**, not USD. USD amounts appear in [Payout Management](./payout-management.md) under **Payouts** after the monthly batch runs
 
 #### 6. Average Completion Rate
 - **What it shows**: Percentage of readers who finish your comics
@@ -67,17 +66,11 @@ The dashboard displays six primary metrics at the top:
 
 ### Revenue Tracking
 
-#### Coin Earnings (Coins Earned widget)
-- **Source**: Paid chapter unlocks only — when a reader clicks **Purchase with Coins** on your comic page
-- **Calculation**: Sum of `coins_spent` on all unlocks for your chapters (all time on the dashboard)
-- **Not included**: Subscriber reads of paid chapters (those count toward subscription payout, not this widget)
-- **USD conversion**: Happens during the monthly payout calculation, not on the dashboard stat
-- **See also**: [Payout Management](./payout-management.md) for the full coin vs subscription flow
-
-#### What This Widget Does Not Show
-- Subscription revenue share (see **Payouts** in the artist panel after month-end processing)
-- Coin charges from readers who only opened a chapter without purchasing an unlock
-- Pending or paid USD balances (use the Payouts section for that)
+#### Coin Earnings
+- **Source**: Paid chapter unlocks by readers
+- **Calculation**: Sum of all coins spent on your chapters
+- **Conversion**: Coins are converted to USD for payouts
+- **Tracking**: Monitor daily/weekly trends to understand peak reading times
 
 ## Performance Insights
 
@@ -148,11 +141,6 @@ The dashboard displays six primary metrics at the top:
 #### Inconsistent Numbers
 - **Cause**: Different calculation methods or time zones
 - **Solution**: Check the time period and calculation basis
-
-#### Coins Earned Is Zero After Paid Reads
-- **Cause**: Test reader may be a **subscriber** (subscribers access paid chapters without coin unlocks)
-- **Cause**: Reader opened the chapter but did not click **Purchase with Coins**
-- **Solution**: See the test checklist in [Payout Management](./payout-management.md#verifying-coin-earnings-test-checklist)
 
 ### Getting Help
 - Use the support ticket system for technical issues
