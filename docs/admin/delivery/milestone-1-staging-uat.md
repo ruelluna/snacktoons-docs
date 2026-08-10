@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Milestone 1 — Staging UAT (August 11)
 
-Use this guide to verify **Milestone 1: Stabilization and security** on staging.
+Use this guide to verify **Milestone 1: Stabilization and security** on staging. Each section explains what was built, why it matters, and the exact clicks to confirm it works. Work through the scenarios in order, or jump to the [sign-off checklist](#sign-off-checklist) when you are ready to confirm completion.
 
 **Staging site:** [https://snacktoons-development.zeekertech.com/](https://snacktoons-development.zeekertech.com/)
 
@@ -18,6 +18,12 @@ Related operator guides:
 ---
 
 ## SA-002 — Reader profile updates
+
+**What this is:** Readers manage their own identity on the site — display name, login email, and profile picture.
+
+**Why it matters:** Profile edits should save reliably without support intervention. If this breaks, members cannot keep their account details up to date.
+
+**What you're checking:** A reader can change their name and email, upload a photo that appears in the header, and optionally remove the photo again.
 
 ### 1A — Update name and email
 
@@ -61,6 +67,12 @@ Related operator guides:
 ---
 
 ## S2-005 — Admin two-factor authentication
+
+**What this is:** An extra security step for anyone using the admin panel — after password, they enter a code from an authenticator app on their phone.
+
+**Why it matters:** Admin accounts control payouts, user access, and platform settings. Requiring 2FA reduces the risk of unauthorized admin access.
+
+**What you're checking:** A new admin must set up 2FA before using the panel; returning admins must enter a valid code each time they sign in.
 
 ### 2A — First-time MFA enrollment
 
@@ -106,7 +118,13 @@ Related operator guides:
 
 ## S2-007 — Account status controls
 
-Use **Reader B** for status tests.
+**What this is:** Tools for staff to temporarily or permanently restrict a reader account — **Pause**, **Suspend**, or **Ban** — with a written reason, and **Reinstate** when access should return.
+
+**Why it matters:** When policy or abuse issues come up, you need a clear way to stop someone from logging in while keeping a record of who changed what and why.
+
+**What you're checking:** Status changes stick in the admin panel, blocked readers cannot sign in, reinstated readers can sign in again, and changes appear in the audit log.
+
+Use **Reader B** for status tests so **Reader A** stays available for profile and coin checks.
 
 ### 3A — Suspend and block login
 
@@ -154,6 +172,12 @@ Repeat 3A/3B with **Pause** and **Ban** instead of Suspend.
 
 ## SA-021 — Payout status alignment
 
+**What this is:** A consistent way to track artist and platform payouts — each record is **Pending**, **Paid**, or **Failed**.
+
+**Why it matters:** Finance and ops need one clear status language. Older **Sent** labels are gone so reports and the admin screen match what actually happened.
+
+**What you're checking:** You can mark a pending payout as paid (or failed on a test record), the status saves correctly, and the list never shows outdated **Sent** values.
+
 ### 4A — Mark payout Paid
 
 | Step | Action |
@@ -182,6 +206,12 @@ Edit a test **Pending** payout → set **Failed** → save.
 ---
 
 ## S2-009 — Manual coin adjustments
+
+**What this is:** A way for admins to add or remove coins from a reader's wallet — for goodwill credits, corrections, or support resolutions — always with a required reason.
+
+**Why it matters:** Coin balance affects what readers can unlock. Manual changes must update the balance correctly, leave an audit trail, and never allow removing more coins than the reader has.
+
+**What you're checking:** Credit increases balance, debit decreases it, over-debit is rejected, and each action is logged.
 
 ### 5A — Credit coins
 
@@ -238,14 +268,14 @@ Edit a test **Pending** payout → set **Failed** → save.
 
 ## Sign-off checklist
 
-- [ ] SA-002 — Name/email save persists
-- [ ] SA-002 — Profile photo upload works
-- [ ] S2-005 — Admin MFA enrolled
-- [ ] S2-005 — Admin login requires TOTP
-- [ ] S2-007 — Suspend blocks login
-- [ ] S2-007 — Reinstate restores login
-- [ ] S2-007 — Audit log shows status changes
-- [ ] SA-021 — Pending → Paid saves correctly
-- [ ] S2-009 — Credit increases balance
-- [ ] S2-009 — Debit decreases balance
-- [ ] S2-009 — Over-debit rejected
+- [ ] **SA-002** — Reader can save name and email; changes still there after refresh
+- [ ] **SA-002** — Reader can upload a profile photo; it shows in the header
+- [ ] **S2-005** — Admin completed authenticator app setup
+- [ ] **S2-005** — Admin login asks for a 6-digit code after password
+- [ ] **S2-007** — Suspended reader cannot log in
+- [ ] **S2-007** — Reinstated reader can log in again
+- [ ] **S2-007** — Audit log shows who changed account status and when
+- [ ] **SA-021** — Pending payout can be marked **Paid** and stays saved
+- [ ] **S2-009** — Admin credit adds coins to reader balance
+- [ ] **S2-009** — Admin debit removes coins correctly
+- [ ] **S2-009** — Debit above balance is blocked with an error
