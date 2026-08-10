@@ -184,8 +184,6 @@ Discovering great comics is one of the best parts of the platform. This guide co
 - **Creator Follows**: Updates from followed artists
 - **Social Sharing**: Comics shared by other users
 
-
-
 ## Browsing Tips
 
 ### Efficient Discovery

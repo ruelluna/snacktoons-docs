@@ -46,9 +46,6 @@ The Referral Payouts page displays a table with all referral payouts in the syst
 - **Paid**: Whether the payout has been paid
 - **Paid At**: When the payout was marked as paid
 
-![Referral Payouts List](../img/referral-payouts-list.png)
-*Screenshot: Referral payouts list view*
-
 ## Filtering Payouts
 
 You can filter the payouts list by:

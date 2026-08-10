@@ -28,9 +28,6 @@ You can:
 - **Sort** the table by clicking on column headers
 - **Toggle columns** to customize your view
 
-![Categories List](../img/categories-list.png)
-*Screenshot: Categories list view*
-
 ## Creating a New Category
 
 To create a new category:
@@ -45,9 +42,6 @@ To create a new category:
    - **Description**: Enter a brief description of the category (optional)
 3. Click **Create** to add the new category
 
-![Create Category](../img/create-category.png)
-*Screenshot: Create category form*
-
 ## Editing a Category
 
 To edit an existing category:
@@ -60,9 +54,6 @@ To edit an existing category:
    - **Type**: Change the category type
    - **Description**: Update the description
 4. Click **Save** to apply your changes
-
-![Edit Category](../img/edit-category.png)
-*Screenshot: Edit category form*
 
 ## Using Categories
 

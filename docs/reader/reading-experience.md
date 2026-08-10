@@ -124,7 +124,6 @@ The reading experience is the heart of the platform. This guide covers everythin
 - **Organize Bookmarks**: Sort by comic, chapter, or date
 - **Remove Bookmarks**: Delete bookmarks you no longer need
 
-
 ### Reading History
 
 #### Automatic Tracking
@@ -182,8 +181,6 @@ The reading experience is the heart of the platform. This guide covers everythin
 - **Tablet Support**: Optimized for larger screens
 - **Desktop Experience**: Full-featured browser interface
 - **Cross-Platform**: Consistent experience across devices
-
-
 
 ## Reading Tips
 

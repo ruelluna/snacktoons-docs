@@ -99,7 +99,6 @@ The platform's rewards and gamification system makes reading more engaging and r
 - **Bookmark Master**: Use bookmarking features
 - **Organizer**: Organize your library effectively
 
-
 ### Achievement Features
 
 #### Achievement Tracking
@@ -113,8 +112,6 @@ The platform's rewards and gamification system makes reading more engaging and r
 
 - **Special Titles**: Earn unique profile titles
 - **Exclusive Content**: Access special content for achievements
-
-
 
 ## Gamification Elements
 

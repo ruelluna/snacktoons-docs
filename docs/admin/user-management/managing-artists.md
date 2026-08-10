@@ -27,9 +27,6 @@ You can:
 - **Sort** the table by clicking on column headers
 - **Filter** artists based on various criteria
 
-![Artists List](../img/artists-list.png)
-*Screenshot: Artists list view*
-
 ## Creating a New Artist
 
 To create a new artist account:
@@ -48,9 +45,6 @@ To create a new artist account:
    - Tax ID
 5. Click **Create** to add the new artist
 
-![Create Artist](../img/create-artist.png)
-*Screenshot: Create artist form*
-
 ## Viewing Artist Details
 
 To view detailed information about an artist:
@@ -64,9 +58,6 @@ The artist detail page shows:
 - Payment information
 - Associated comics
 
-![Artist Details](../img/artist-details.png)
-*Screenshot: Artist details view*
-
 ## Editing an Artist
 
 To edit an existing artist:
@@ -78,9 +69,6 @@ To edit an existing artist:
    - Payout percentages
    - Payment information
 4. Click **Save** to apply your changes
-
-![Edit Artist](../img/edit-artist.png)
-*Screenshot: Edit artist form*
 
 ## Managing Artist Payout Settings
 

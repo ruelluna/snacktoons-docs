@@ -81,16 +81,12 @@ Administrators can configure the recommendation system through the admin panel a
 
 ### Algorithm Selection
 
-![Algorithm Selection](../img/algorithm-selection.png)
-
 - **Category-Based Recommendations**: Toggle to enable/disable recommendations based on recently read comics' categories
 - **Extended Reading History**: Toggle to enable/disable recommendations based on a larger sample of reading history
 - **Collaborative Filtering**: Toggle to enable/disable recommendations based on what other users have favorited
 - **Popularity-Based Recommendations**: Toggle to enable/disable recommendations based on overall comic popularity
 
 ### Algorithm Weights
-
-![Algorithm Weights](../img/algorithm-weights.png)
 
 Adjust the importance of each algorithm on a scale of 0-10:
 
@@ -102,8 +98,6 @@ Adjust the importance of each algorithm on a scale of 0-10:
 Higher weights give that algorithm's recommendations more influence in the final results.
 
 ### Algorithm Parameters
-
-![Algorithm Parameters](../img/algorithm-parameters.png)
 
 Fine-tune how the algorithms work:
 

@@ -125,8 +125,6 @@ The support system provides comprehensive help and assistance for all your platf
 - **Best Practices**: Tips for optimal platform use
 - **Troubleshooting**: Common problem solutions
 
-
-
 ### Community Resources
 
 #### User Forums
@@ -199,7 +197,6 @@ The support system provides comprehensive help and assistance for all your platf
 - **Information Updates**: Update profile information
 - **Privacy Settings**: Adjust privacy preferences
 - **Account Security**: Review security settings
-
 
 ### Payment Issues
 

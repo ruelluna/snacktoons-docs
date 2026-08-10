@@ -66,7 +66,6 @@ Your personal library is where you organize, track, and manage all your comics. 
 - **Resume Reading**: Continue where you left off
 - **Progress Sync**: Sync across all devices
 
-
 ## Favorites Collection
 
 ### Adding Comics to Favorites
@@ -157,8 +156,6 @@ Your personal library is where you organize, track, and manage all your comics. 
 
 - **Share Bookmarks**: Share with other readers
 
-
-
 ## Library Organization
 
 ### Sorting and Filtering
@@ -189,8 +186,6 @@ Your personal library is where you organize, track, and manage all your comics. 
 - **Recommendations**: Get suggestions based on your collection
 - **Trending in Library**: See what's popular among your favorites
 - **New Additions**: Discover recently added content
-
-
 
 ## Library Analytics
 

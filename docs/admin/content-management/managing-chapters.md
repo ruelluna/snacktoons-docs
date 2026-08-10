@@ -35,9 +35,6 @@ You can:
 - **Filter** chapters, including viewing trashed (deleted) chapters
 - **Toggle columns** to customize your view
 
-![Chapters List](../img/chapters-list.png)
-*Screenshot: Chapters list view*
-
 ## Viewing Chapter Details
 
 To view detailed information about a chapter:
@@ -71,9 +68,6 @@ The chapter detail page shows comprehensive information about the chapter, organ
 - Last update date
 - Deletion date (if applicable)
 
-![Chapter Details](../img/chapter-details.png)
-*Screenshot: Chapter details view*
-
 ## Editing a Chapter
 
 To edit a chapter's information:
@@ -101,9 +95,6 @@ To edit a chapter's information:
 - **Images**: Upload, reorder, or remove the chapter's pages
 
 4. Click **Save** to apply your changes
-
-![Edit Chapter](../img/edit-chapter.png)
-*Screenshot: Edit chapter form*
 
 ## Managing Chapter Status
 

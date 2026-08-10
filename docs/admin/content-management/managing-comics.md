@@ -33,9 +33,6 @@ You can:
 - **Filter** comics based on status, categories, language, or editor's picks
 - **Group** comics by their status
 
-![Comics List](../img/comics-list.png)
-*Screenshot: Comics list view*
-
 ## Viewing Comic Details
 
 To view detailed information about a comic:
@@ -49,9 +46,6 @@ The comic detail page shows comprehensive information about the comic, including
 - Status and categorization
 - Images (cover, main, thumbnail, etc.)
 - Associated chapters
-
-![Comic Details](../img/comic-details.png)
-*Screenshot: Comic details view*
 
 ## Editing a Comic
 
@@ -82,9 +76,6 @@ To edit a comic's information:
 - **Gallery Images**: Additional showcase images (various sizes)
 
 4. Click **Save** to apply your changes
-
-![Edit Comic](../img/edit-comic.png)
-*Screenshot: Edit comic form*
 
 ## Managing Comic Status
 

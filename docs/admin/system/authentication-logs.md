@@ -26,9 +26,6 @@ The Authentication Logs page displays a table with all login activity in the sys
 - **Logout At**: The date and time when the user logged out (if applicable)
 - **Cleared By User**: Whether the session was cleared by the user
 
-![Authentication Logs List](../img/authentication-logs-list.png)
-*Screenshot: Authentication logs list view*
-
 ## Understanding Log Entries
 
 Each log entry provides valuable information about a login attempt:

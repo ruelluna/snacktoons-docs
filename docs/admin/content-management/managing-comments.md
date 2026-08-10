@@ -38,9 +38,6 @@ You can:
   - Comments on specific comics or chapters
   - Deleted comments (using the Trashed filter)
 
-![Comments List](../img/comments-list.png)
-*Screenshot: Comments list view*
-
 ## Viewing Comment Details
 
 To view detailed information about a comment:
@@ -58,9 +55,6 @@ The comment detail page shows comprehensive information about the comment, inclu
 - Flag reason (if applicable)
 - Timestamps
 
-![Comment Details](../img/comment-details.png)
-*Screenshot: Comment details view*
-
 ## Creating a New Comment
 
 While comments are typically created by users on the frontend, administrators can create comments if needed:
@@ -76,9 +70,6 @@ While comments are typically created by users on the frontend, administrators ca
    - **Hidden**: Toggle if the comment should be hidden from users
    - **Flag Reason**: Enter a reason if the comment is flagged (optional)
 3. Click **Create** to add the new comment
-
-![Create Comment](../img/create-comment.png)
-*Screenshot: Create comment form*
 
 ## Editing a Comment
 
@@ -96,9 +87,6 @@ To edit an existing comment:
    - **Hidden**: Toggle the hidden status
    - **Flag Reason**: Update the flag reason (if applicable)
 4. Click **Save** to apply your changes
-
-![Edit Comment](../img/edit-comment.png)
-*Screenshot: Edit comment form*
 
 ## Moderating Comments
 

@@ -29,9 +29,6 @@ You can:
 - **Sort** the table by clicking on column headers
 - **Reorder** plans by dragging and dropping them (this affects how they appear to users)
 
-![Plans List](../img/plans-list.png)
-*Screenshot: Plans list view*
-
 ## Creating a New Plan
 
 To create a new subscription plan:
@@ -47,9 +44,6 @@ To create a new subscription plan:
    - **Is Hot**: Toggle ON to mark the plan as featured
 3. Click **Create** to add the new plan
 
-![Create Plan](../img/create-plan.png)
-*Screenshot: Create plan form*
-
 ## Editing a Plan
 
 To edit an existing plan:
@@ -58,9 +52,6 @@ To edit an existing plan:
 2. Click the **Edit** button (pencil icon) in the actions column
 3. Update the plan information as needed
 4. Click **Save** to apply your changes
-
-![Edit Plan](../img/edit-plan.png)
-*Screenshot: Edit plan form*
 
 ## Managing Plan Discounts
 
@@ -95,9 +86,6 @@ The Subscriptions page shows:
 - The final price paid (including any discounts)
 - When the subscription expires
 - When the subscription was created
-
-![Subscriptions List](../img/subscriptions-list.png)
-*Screenshot: Subscriptions list view*
 
 ## Best Practices
 

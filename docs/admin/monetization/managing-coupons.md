@@ -36,9 +36,6 @@ The Coupons page displays a table with all coupons in the system. The table incl
 - **Currency**: The currency for fixed-amount discounts
 - **Expires At**: When the coupon will expire (if applicable)
 
-![Coupons List](../img/coupons-list.png)
-*Screenshot: Coupons list view*
-
 ## Creating a New Coupon
 
 To create a new coupon:
@@ -57,9 +54,6 @@ To create a new coupon:
    - **Count**: (Optional) Set a limit on how many times the coupon can be used
    - **Expires At**: (Optional) Set an expiration date and time for the coupon
 3. Click **Create** to add the new coupon
-
-![Create Coupon](../img/create-coupon.png)
-*Screenshot: Create coupon form*
 
 ## Editing and Deleting Coupons
 

@@ -52,15 +52,9 @@ The platform's social features allow you to connect with other readers, share yo
 - **Personal Attacks**: Don't insult or harass other users
 - **Copyright Violations**: Don't share copyrighted material
 
-
-
 ## Community Engagement
 
 ### Community Engagement
-
-
-
-
 
 ### User Profiles
 
@@ -74,9 +68,6 @@ The platform's social features allow you to connect with other readers, share yo
 - **Profile Picture**: Upload a personal avatar
 - **Bio Section**: Write about your reading interests
 - **Favorite Comics**: Showcase your top picks
-
-
-
 
 ## Sharing and Recommendations
 
@@ -107,12 +98,6 @@ The platform's social features allow you to connect with other readers, share yo
 - **Friend Recommendations**: See what friends suggest
 - **Community Picks**: Discover popular community choices
 - **Expert Recommendations**: Get suggestions from critics
-
-
-
-
-
-
 
 ## Privacy and Safety
 

@@ -28,9 +28,6 @@ You can:
 - **Sort** the table by clicking on column headers
 - **Filter** readers based on various criteria
 
-![Readers List](../img/readers-list.png)
-*Screenshot: Readers list view*
-
 ## Viewing Reader Details
 
 To view detailed information about a reader:
@@ -48,9 +45,6 @@ The reader detail page shows comprehensive information about the reader, includi
 - Referral information
 - Bank details
 
-![Reader Details](../img/reader-details.png)
-*Screenshot: Reader details view*
-
 ## Editing a Reader
 
 To edit a reader's basic information:
@@ -61,9 +55,6 @@ To edit a reader's basic information:
    - **Name**: Update the reader's name
    - **Email**: Update the reader's email address
 4. Click **Save** to apply your changes
-
-![Edit Reader](../img/edit-reader.png)
-*Screenshot: Edit reader form*
 
 ## Managing Reading History
 

@@ -33,9 +33,6 @@ You can:
   - Active keywords only
   - Inactive keywords only
 
-![Banned Keywords List](../img/banned-keywords-list.png)
-*Screenshot: Banned keywords list view*
-
 ## Creating a New Banned Keyword
 
 To create a new banned keyword:
@@ -52,9 +49,6 @@ To create a new banned keyword:
    - **Description**: Add notes about why this keyword is banned
 3. Click **Create** to add the new banned keyword
 
-![Create Banned Keyword](../img/create-banned-keyword.png)
-*Screenshot: Create banned keyword form*
-
 ## Editing a Banned Keyword
 
 To edit an existing banned keyword:
@@ -68,9 +62,6 @@ To edit an existing banned keyword:
    - **Active**: Toggle active status
    - **Description**: Update notes about the keyword
 4. Click **Save** to apply your changes
-
-![Edit Banned Keyword](../img/edit-banned-keyword.png)
-*Screenshot: Edit banned keyword form*
 
 ## Managing Keyword Status
 

@@ -35,9 +35,6 @@ You can:
   - Hidden comments
   - Visible comments
 
-![Comment Reports List](../img/comment-reports-list.png)
-*Screenshot: Comment reports list view*
-
 ## Viewing Report Details
 
 To view detailed information about a report:
@@ -63,9 +60,6 @@ The report detail page shows comprehensive information about the report, organiz
 - Whether the comment is hidden
 - Admin notes about the report
 
-![Report Details](../img/report-details.png)
-*Screenshot: Report details view*
-
 ## Editing a Report
 
 To edit a report's information:
@@ -77,9 +71,6 @@ To edit a report's information:
    - **Hide Comment**: Toggle whether the reported comment is hidden
    - **Admin Notes**: Add or update notes about the report
 4. Click **Save** to apply your changes
-
-![Edit Report](../img/edit-report.png)
-*Screenshot: Edit report form*
 
 ## Moderating Reported Comments
 

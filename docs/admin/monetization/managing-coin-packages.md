@@ -22,9 +22,6 @@ The Coin Packages page displays a table with all coin packages in the system. Th
 - **Credits**: The number of coins included in the package
 - **Price**: The cost of the package
 
-![Coin Packages List](../img/coinpackage-list.png)
-*Screenshot: Coin packages list view*
-
 ## Creating a New Coin Package
 
 To create a new coin package:
@@ -35,9 +32,6 @@ To create a new coin package:
    - **Credits**: Enter the number of coins included in the package
    - **Price**: Set the price for the package (note: prices are stored in cents, so $9.99 would be entered as 999)
 3. Click **Create** to add the new coin package
-
-![Create Coin Package](../img/placeholder.png)
-*Screenshot: Create coin package form*
 
 ## Understanding Coin Package Usage
 
