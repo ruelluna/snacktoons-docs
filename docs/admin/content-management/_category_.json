@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Documentation for managing content, including comics, chapters, categories, and comments."
+    "description": "Documentation for managing content, including comics, chapters, categories, home banners, popups, countdowns, menus, ranking rails, and comments."
   }
 }

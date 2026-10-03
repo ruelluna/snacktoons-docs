@@ -104,6 +104,16 @@ Your Earnings = (Total Subscription Revenue × Platform Share) × Your Readershi
 - **Pending Payouts**: Amount waiting for next payout
 - **Payment History**: Past payout records
 
+#### Payout detail
+
+Open a payout to see:
+
+- **Payout Explanation**: how the amount was calculated (when provided)
+- **Approved At**: when operations approved the payout
+- **Claimed At**: when you acknowledged the payout
+
+Placeholders appear if a date or explanation has not been set yet.
+
 #### Real-Time Tracking
 - **Live Updates**: Earnings update in real-time
 - **Chapter Performance**: See which chapters earn most

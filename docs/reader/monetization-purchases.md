@@ -8,6 +8,44 @@ sidebar_position: 6
 
 The platform offers multiple ways to access premium content through coins and subscriptions. This guide covers everything about purchasing content, managing your coins, and understanding subscription options.
 
+## Billing page (shipped)
+
+Open **Billing** from your profile menu to review money-related activity in one place.
+
+### Coin wallet history
+
+- See **coin credits and debits**: chapter unlocks, coin package purchases, admin adjustments, reward grants, and voucher redemptions
+- Balance shown at top of the billing area links to **membership & coins** when you need to top up
+
+### Redeem a coin voucher
+
+If you received a voucher code:
+
+1. Open **Billing**
+2. Enter the code under **Redeem voucher**
+3. Choose **Redeem**
+
+Coins are added to your wallet. Each code works once per account. Expired, inactive, or fully used codes show an error.
+
+### Countdown promotions
+
+When a countdown campaign is running, a clock appears near the top of the site. After the timer ends, the clock hides and the campaign button remains. Use the **X** on the bar to hide it; it stays hidden on later visits. You can also open the countdown page from the site for the full promotion — that page may include a designed layout plus the same clock.
+
+### Purchase history
+
+- Filter invoices by **type** (subscription, coins, etc.) and **date range**
+- **Export CSV** for your records (filtered rows export when filters are applied)
+
+### Locked next chapter
+
+When you finish a chapter and tap **Next** on a locked episode:
+
+- Guests are sent to **sign in** with return to the next chapter
+- Members with enough coins may **unlock automatically** and continue
+- Otherwise you are sent to **membership & coins** to subscribe or buy coins, then **Continue reading** after checkout
+
+---
+
 ## Coin System
 
 ### Understanding Coins

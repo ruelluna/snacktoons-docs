@@ -42,28 +42,29 @@ The reading experience is the heart of the platform. This guide covers everythin
 2. **Check Access**: Verify if you can read the chapter
 3. **Begin Reading**: Click to open the chapter viewer
 4. **Navigate Pages**: Use controls to move through pages
+5. **Next chapter**: If the next chapter is locked, you are sent to sign in, unlock with coins when you have enough balance, or the membership and coins page to subscribe or add coins—then you can continue where you left off
 
 ## Reading Interface
 
 ### Viewer Controls
 
 #### Basic Navigation
-- **Previous Page**: Go to the previous page
-- **Next Page**: Advance to the next page
-- **Chapter Navigation**: Move between chapters
+- **Previous Page**: Go to the previous page (Page view)
+- **Next Page**: Advance to the next page (Page view)
+- **Chapter Navigation**: Move between chapters (top bar)
 - **Return to Comic**: Go back to comic information
 
 #### Reading Modes
-- **Single Page**: View one page at a time
-- **Double Page**: View two pages side by side
-- **Scrolling Mode**: Continuous vertical scrolling
-- **Fit to Screen**: Automatically size pages to screen
+Use the **Page view** / **Scroll view** toggle in the chapter reader header. Your choice is remembered on this device.
+
+- **Scroll view**: All chapter panels are stacked vertically. Scroll freely through the entire chapter. The bottom bar shows **Page X of Y** (updates as you scroll) between chapter Previous and Next.
+- **Page view**: One panel at a time at full width (same sizing as Scroll view). Scroll vertically within a tall panel, then use **Previous page** / **Next page** in the bottom bar—or left/right arrow keys—to move to the previous or next panel. The reader returns to the top of the chapter when you change panels.
+- **Resume reading**: Your place in a chapter (page index and progress) is saved automatically while you read. When you return to the same chapter, the reader restores your last position when possible.
 
 #### Display Options
-- **Zoom Controls**: Enlarge or reduce page size
-- **Brightness**: Adjust screen brightness for comfort
-- **Reading Direction**: Left-to-right or right-to-left
-- **Page Orientation**: Portrait or landscape mode
+- **Full-width panels**: Images use the full reader width in both modes
+- **Auto-hiding bars**: Top and bottom navigation hide while you scroll and reappear near the top or bottom of the page
+- **Content protection**: Right-click saving and image dragging are disabled, and a subtle account watermark appears on panels. These measures deter casual copying but cannot prevent all screenshots or screen recording.
 
 ### Advanced Features
 

@@ -60,15 +60,29 @@ This button **does not appear in production**. Production payouts always follow 
 
 ## Payout status values
 
-Artist and platform payout records use three statuses:
+Artist and platform payout records use this workflow:
 
 | Status | Meaning |
 |--------|---------|
-| **Pending** | Calculated or awaiting admin payment |
-| **Paid** | Marked as sent/paid by an administrator |
+| **Pending** | Calculated; awaiting admin review |
+| **Approved** | Admin approved; artist may **Acknowledge payout** in the artist panel |
+| **Paid** | Admin confirmed funds sent |
 | **Failed** | Payment attempt failed or was rejected |
 
+**Unclaimed:** An **Approved** payout with no **Claimed** timestamp — the artist has not acknowledged yet.
+
+On **Admin → Payouts**, use **Approve** then **Mark paid**. Artists acknowledge from **Artist panel → Payouts**.
+
 When marking a payout **Paid**, set the **Payout date** if the form requires it. Legacy **Sent** values are no longer used in the admin panel.
+
+## Monthly vs yearly artist share
+
+In **Settings → General Settings → Edit → Artist Payout Settings**, configure:
+
+- **Subscription payout percentage (default)** — used when monthly/yearly overrides are blank
+- **Monthly plans** and **Yearly plans** — separate percentages applied to each subscription revenue pool during calculation
+
+Payout explanation text on new rows references both pools when mixed plan types exist in the period.
 
 ## Related revenue stream
 

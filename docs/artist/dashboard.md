@@ -50,6 +50,10 @@ The dashboard displays six primary metrics at the top:
 - **Color**: Success (green)
 - **Description**: "Average percent of users who finish your comics"
 
+### Reads Over Time
+
+A bar chart on the dashboard shows **reads of your comics only**, grouped by month for the last twelve months. Other artists’ titles are not included.
+
 ## Understanding Your Metrics
 
 ### Readership Analytics

@@ -25,6 +25,8 @@ The Authentication Logs page displays a table with all login activity in the sys
 - **Login Successful**: Whether the login attempt was successful
 - **Logout At**: The date and time when the user logged out (if applicable)
 - **Cleared By User**: Whether the session was cleared by the user
+- **City**: City from the login IP when a lookup is available (may be blank)
+- **Device**: Desktop, mobile, tablet, or unknown, derived from the user agent
 
 ## Understanding Log Entries
 
@@ -78,6 +80,14 @@ This is useful for investigating access during specific time periods or incident
 ### Filter by Cleared Sessions
 1. Use the **Cleared By User** filter to show only sessions that were manually cleared
 2. This can help identify users who are security-conscious and properly end their sessions
+
+### Filter by Device
+1. Use the **Device** filter to show desktop, mobile, tablet, or unknown sessions
+2. Device is stored on the log after login (or derived from the user agent)
+
+### Filter by City
+1. Use the **City** filter and enter part of a city name
+2. Rows without a city stay hidden when this filter is applied
 
 ## Security Monitoring Best Practices
 

@@ -169,6 +169,11 @@ Chapters are the building blocks of your comic series. Effective chapter managem
 - **Use Case**: Active chapter available for reading
 - **Actions**: Monitor performance, edit if needed
 
+##### Scheduled
+- **Meaning**: Approved and waiting for **Publish at**
+- **Use Case**: Hold a chapter after review until a release time
+- **Actions**: Set **Publish at** on the chapter form. A future time keeps it Scheduled; a blank or past time publishes it. Draft and Requested Review chapters are never released by the schedule alone.
+
 ##### Unpublished
 - **Meaning**: Temporarily removed from public view
 - **Use Case**: Content issues or major revisions

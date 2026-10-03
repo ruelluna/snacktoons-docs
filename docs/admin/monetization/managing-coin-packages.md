@@ -30,8 +30,15 @@ To create a new coin package:
 2. Fill in the required information:
    - **Name**: Enter a descriptive name for the package (e.g., "Starter Pack", "Premium Bundle")
    - **Credits**: Enter the number of coins included in the package
-   - **Price**: Set the price for the package (note: prices are stored in cents, so $9.99 would be entered as 999)
+   - **Price**: Set the price for the package (note: prices are stored in cents, so $9.99 would be entered as 999). When a currency rate exists under **Settings → Coin Currency Rates**, save stores the computed cents from that rate so Stripe matches the storefront.
+   - **Currency**: ISO code such as `usd` or `eur`
 3. Click **Create** to add the new coin package
+
+## Currency rates (purchase FX)
+
+Open **Settings → Coin Currency Rates** to set how many coins equal **1.00** of a currency (for example 30 coins per 1.00 USD). This matrix is for **reader purchases only**. Artist cash-out still uses **Coin Economy → Coin Cash-out Rate**.
+
+Only **Active** coin packages appear on the public plans page.
 
 ## Understanding Coin Package Usage
 

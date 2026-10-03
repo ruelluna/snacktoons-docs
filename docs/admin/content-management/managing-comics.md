@@ -91,6 +91,20 @@ The status of a comic determines its visibility and availability to readers:
    - **Rejected**: Not approved for publication
 4. Click **Save** to apply the status change
 
+## Upload schedule (Today’s comics)
+
+Use the **Upload schedule** section on the comic create/edit page to control when a published comic appears in **Today’s comics** on the home page.
+
+1. Open the comic in **Content → Comics**
+2. Choose a schedule type:
+   - **Weekday**: select one or more days (Sunday through Saturday)
+   - **Every tenth**: enter a day of the month (for example 10, 20, or 30)
+3. Save the comic
+
+Comics with **no schedule** do not appear in Today’s comics. For **Every tenth**, months that do not include that day (for example the 31st in April) are skipped.
+
+The comic must be **Published** and have at least one published, non-prologue chapter.
+
 ## Managing Comic Categories
 
 Categories help readers find comics based on genre or theme:

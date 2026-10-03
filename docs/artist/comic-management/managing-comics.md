@@ -8,6 +8,16 @@ sidebar_position: 2
 
 Once you've created your comic, you'll need to manage it effectively to maximize its success. This guide covers editing, status management, analytics, and optimization strategies.
 
+## Upload schedule
+
+On the comic form, **Upload schedule** controls when your published comic appears in **Today’s comics** on the public home page.
+
+- **Weekday**: pick the days of the week new episodes are expected
+- **Every tenth**: pick a calendar day (months that lack that day are skipped)
+- Leave the schedule empty if the title should not appear in Today’s comics
+
+The comic must be published and have at least one published chapter (not a prologue).
+
 ## Accessing Your Comics
 
 ### Comics List View

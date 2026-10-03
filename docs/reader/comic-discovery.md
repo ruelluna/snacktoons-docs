@@ -10,9 +10,19 @@ Discovering great comics is one of the best parts of the platform. This guide co
 
 ## Homepage Discovery
 
-### Featured Content
+### Homepage Discovery
 
-#### Curated Selections
+#### Featured and genre sections (shipped)
+
+- **Featured rail:** Comics marked **Featured** in admin appear in a dedicated home section
+- **Genre sections:** Category-driven carousels group comics by genre on the home page
+- **Popular / new / recommendations:** Existing rails continue to surface trending and recent titles
+- **Promo banners:** When a campaign is active for your language, a promo banner appears above the most-read carousel. It may be a full image, a series card with title, or a promo with a footer button. Tap it to open the campaign link.
+- **Today’s comics:** Titles that are scheduled for today (weekday or every-tenth upload term). Comics without a schedule do not appear here
+- **Extra ranking rails:** The home page may show additional titled carousels after the banner. These are editorial lists (featured, most-read, newest, editor picks, or today’s)
+- **Extra menu links:** Header and footer may include extra site links next to subscribe, categories, search, and the usual legal links
+
+#### Curated selections (also on home)
 - **Editor's Picks**: Hand-selected comics by our team
 - **Featured Comics**: Highlighted content on the homepage
 - **New Releases**: Recently published comics
@@ -61,7 +71,18 @@ Discovering great comics is one of the best parts of the platform. This guide co
 
 ### Advanced Search
 
-#### Filter Options
+Open **Advanced search** from the site navigation (locale path e.g. `/en/search/advanced`).
+
+#### Filter options (shipped)
+
+- **Search text** — title and metadata
+- **Access** — free vs paid comics
+- **Tags** — filter by comic tags set in admin
+- **Genre / category** — narrow by category
+- **Country** — filter by artist country when set
+- **Date range** — publication window
+
+#### Filter options (reference)
 - **Category/Genre**: Filter by specific comic types
 - **Status**: Ongoing, completed, or hiatus
 

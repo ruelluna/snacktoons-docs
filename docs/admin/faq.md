@@ -115,19 +115,19 @@ To manage coupons:
 ### How do I update general settings?
 
 To update general settings:
-1. Navigate to **System > General Settings**
-2. Modify settings in appropriate tabs
-3. Save changes
-4. Clear cache if necessary
+1. Navigate to **Settings → General Settings** (read-only view)
+2. Click **Edit**
+3. Change the tab you need (SEO, Analytics, payouts, and so on)
+4. Save — other tabs keep their current or default values
 
 ### How do I configure analytics tracking?
 
 To configure analytics:
-1. Go to **System > General Settings > Analytics**
+1. Go to **Settings → General Settings → Edit → Analytics**
 2. Add Google Analytics ID
 3. Configure Meta Pixel
 4. Add custom tracking scripts
-5. Test tracking implementation
+5. Save, then confirm the values on the view page
 
 ### How do I manage system logs?
 

@@ -105,10 +105,18 @@ The status of a chapter determines its visibility and availability to readers:
 3. Select the appropriate status:
    - **Published**: Visible and available to readers
    - **Draft**: Not publicly visible, still in development
-   - **Scheduled**: Set to be published at a future date
+   - **Scheduled**: Held after review until **Publish at** is reached
    - **Archived**: No longer actively promoted but still available
    - **Rejected**: Not approved for publication
-4. Click **Save** to apply the status change
+4. Optionally set **Publish at** (date and time in the admin timezone)
+5. Click **Save** to apply the status change
+
+**How scheduled release works:**
+
+- **Publish at** is a hold **after** review. Draft and Requested Review chapters never go live from the schedule alone.
+- Saving a **Published** chapter with a future **Publish at** moves it to **Scheduled**. Readers cannot see it yet.
+- Saving a **Scheduled** chapter with a blank or past **Publish at** publishes it immediately.
+- When **Publish at** arrives, the chapter becomes **Published** automatically. The public site still only shows published chapters.
 
 ## Managing Chapter Access
 

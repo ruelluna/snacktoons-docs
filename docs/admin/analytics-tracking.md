@@ -4,11 +4,27 @@
 
 The Analytics & Tracking system provides comprehensive tracking capabilities across the entire application. It includes global tracking settings in the General Settings panel, as well as granular tracking options for individual comics and chapters. This system allows administrators to implement various analytics platforms and track user behavior at multiple levels.
 
+## View history (reading activity)
+
+Use **Analytics → View history** in the admin panel to review chapter reads across all readers.
+
+- Filter by **last read date range** or **comic**
+- Search by reader email or session
+- **Export reading history** to CSV for reporting (reader, comic, chapter, progress, IP, timestamps)
+
+Per-reader history remains available on **Users → Readers → [reader] → Reading history**.
+
 ## General Settings Analytics Tab
 
 ### Accessing Analytics Settings
 
-Navigate to **Admin Panel > General Settings > Analytics** to configure global tracking settings that apply across the entire application.
+Open **Settings → General Settings**. The page opens as a **read-only view** of SEO, analytics, payouts, and the other setting groups. Click **Edit** to change values. Saving one tab (for example SEO or Analytics) does not require you to fill the other tabs — empty payout and economy fields keep their defaults.
+
+After you save, you return to the view so you can confirm what is stored before editing again.
+
+### Opening the Analytics group
+
+On the edit form, open the **Analytics** tab to configure global tracking settings that apply across the entire application.
 
 ### Available Tracking Options
 
@@ -33,6 +49,21 @@ G-ABC123DEF4
 ```
 123456789012345
 ```
+
+#### 2b. Google Tag Manager Container ID
+- **Field**: Google Tag Manager Container ID
+- **Format**: `GTM-XXXXXXX`
+- **Purpose**: Loads the official GTM snippet in the page head (and the noscript iframe after the body opens)
+- **Notes**: Leave empty if you only need the GA4 Measurement ID above. You can use both: GTM for tags, GA4 for the built-in gtag snippet.
+
+#### 2c. Meta Conversions API
+- **Access token**: Server-side token from Meta Events Manager. The site never shows this value in logs or public pages.
+- **Test event code**: Optional. Use while checking Test Events in Meta; clear it for production.
+- **What is sent**: Registration as CompleteRegistration; subscription, chapter unlock, and coin package checkout as Purchase. The same `event_id` is pushed to `dataLayer` so GTM and CAPI can dedupe.
+
+## SEO tab
+
+Open **Settings → General Settings → Edit → SEO** to set the homepage document title, keywords, and extra metadata. The SEO title becomes the public `<title>` on the home page. Comic, chapter, and account pages still use their own titles. This is a single-domain site; change the public URL in application config, not by adding extra domains here.
 
 #### 3. PostHog HTML Snippet
 - **Field**: `posthog_html_snippet`
@@ -115,6 +146,7 @@ has_tracking_enabled()
 // Get specific tracking settings
 google_analytics_id()
 meta_pixel_id()
+gtm_container_id()
 posthog_html_snippet()
 custom_tracking_scripts()
 purchase_tracking_scripts()

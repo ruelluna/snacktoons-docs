@@ -3,6 +3,6 @@
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Documentation for monetization features, including coin packages, subscriptions, plans, coupons, and payouts."
+    "description": "Documentation for monetization features, including coin packages, currency rates, coin vouchers, subscriptions, plans, coupons, and payouts."
   }
 }
